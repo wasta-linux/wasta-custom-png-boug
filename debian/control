@@ -1,0 +1,16 @@
+Source: wasta-custom-png-boug
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://launchpad.net/~wasta-linux/+archive/wasta
+
+Package: wasta-custom-png-boug
+Architecture: any
+Depends: wasta-base-setup, wasta-custom-png, gnome-shell, gnome-session, gnome-tweak-tool, gnome-shell-extensions, audacity, nautilus-image-manipulator, xdotool, alacarte, adaptit-docs, ${shlibs:Depends}, ${misc:Depends}
+Description: wasta-Linux PNG customization
+ Customizes wasta-Linux with PNG Bougainville adjustments, including:
+    - gschema overrides adjustments to default settings
+    - kfml keyboards
+    - gnome-shell desktop interface

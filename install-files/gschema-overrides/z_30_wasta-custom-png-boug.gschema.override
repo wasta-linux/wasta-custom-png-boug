@@ -1,0 +1,25 @@
+# ==============================================================================
+# z_30_wasta-custom-png-boug.gshema.override
+#
+#   If same key overridden in 2 files, "last wins" regarding filenames
+#       (so a "z_30_*" filename would win over a "z_10_*" filename)
+#
+#   After modifying these .override files, reload with:
+#       glib-compile-schemas /usr/share/glib-2.0/schemas/
+#
+#   2013-02-05 rik: initial script
+#
+# ==============================================================================
+
+[org.cinnamon]
+panel-bottom-height = 41
+
+[org.gnome.shell]
+disabled-open-search-providers = ['google.xml', 'wikipedia.xml']
+
+enabled-extensions = ['alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'battery-power-statistics-shortcut@l300lvl.co.nr', 'quitbutton@azathoth92.hotmail.it', 'remove-bluetooth-icon@affolter-engineering.ch', 'removeaccesibility@lomegor', 'nohotcorner@azuri.free.fr', 'windowoverlay-icons@sustmidown.centrum.cz']
+
+favorite-apps = ['paratext.desktop', 'adaptit-frm.desktop', 'firefox.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'nautilus.desktop']
+
+[org.gnome.desktop.wm.preferences]
+button-layout = :maximize,close

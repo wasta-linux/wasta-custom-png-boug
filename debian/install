@@ -1,0 +1,7 @@
+install-files/gschema-overrides/*         usr/share/glib-2.0/schemas
+wasta-custom-png-boug                     usr/share
+install-files/adaptit-frm.desktop         usr/share/applications
+install-files/xdotool.desktop             etc/skel/.config/autostart
+install-files/gnome-shell/*               etc/skel/.local/share/gnome-shell/extensions
+install-files/winetricks                  etc/skel/.cache
+

@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Type=Application
+Exec=bash -c "sleep 1; xdotool key Alt+F1"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Overview on login
+Comment=
+Name[en_AU]=overview on login
