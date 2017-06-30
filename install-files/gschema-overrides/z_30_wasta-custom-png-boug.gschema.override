@@ -14,12 +14,9 @@
 [org.cinnamon]
 panel-bottom-height = 41
 
-[org.gnome.shell]
-disabled-open-search-providers = ['google.xml', 'wikipedia.xml']
+favorite-apps = ['paratext.desktop', 'adaptit-frm.desktop', 'firefox.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'nemo.desktop']
 
-enabled-extensions = ['alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'battery-power-statistics-shortcut@l300lvl.co.nr', 'quitbutton@azathoth92.hotmail.it', 'remove-bluetooth-icon@affolter-engineering.ch', 'removeaccesibility@lomegor', 'nohotcorner@azuri.free.fr', 'windowoverlay-icons@sustmidown.centrum.cz']
+[org.cinnamon.settings-daemon.peripherals.touchpad] 
+tap-to-click = false
 
-favorite-apps = ['paratext.desktop', 'adaptit-frm.desktop', 'firefox.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'nautilus.desktop']
 
-[org.gnome.desktop.wm.preferences]
-button-layout = :maximize,close

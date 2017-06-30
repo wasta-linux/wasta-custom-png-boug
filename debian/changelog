@@ -1,3 +1,9 @@
+wasta-custom-png-boug (1.0.1) xenial; urgency=medium
+
+  * test xenial build
+
+ -- Kim Blewett <kim_blewett@sil.org>  Fri, 30 Jun 2017 15:52:43 -0500
+
 wasta-custom-png-boug (1.0.0) precise; urgency=medium
 
   * Initial GitHub / Launchpad commit
