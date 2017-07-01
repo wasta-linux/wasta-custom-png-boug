@@ -9,7 +9,7 @@ Homepage: https://launchpad.net/~wasta-linux/+archive/wasta
 Package: wasta-custom-png-boug
 Architecture: any
 Depends: wasta-core-xenial, ${shlibs:Depends}, ${misc:Depends}
-Recommends: wasta-custom-png, tlp, acpi-call-dkms, tp-smapi-dkms, paratext-8.0, paratext-resources-8.0, paratext-7.6, paratext-resources-7.6, fieldworks-applications, nemo-image-converter
+Recommends: wasta-custom-png, tlp, acpi-call-dkms, tp-smapi-dkms, adaptit, adaptit-docs, bloom-desktop, paratext-8.0, paratext-resources-8.0, paratext-7.6, paratext-resources-7.6, fieldworks-applications, nemo-image-converter
 Description: wasta-Linux PNG customization
  Customizes wasta-Linux with PNG Bougainville adjustments, including:
     - gschema overrides adjustments to default settings
