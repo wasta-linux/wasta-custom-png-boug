@@ -1,6 +1,12 @@
+wasta-custom-png-boug (1.0.3) xenial; urgency=medium
+
+  * fix duplicate install-files
+
+ -- Kim Blewett <kim_blewett@sil.org>  Mon, 07 Aug 2017 22:19:44 +1000
+
 wasta-custom-png-boug (1.0.2) xenial; urgency=medium
 
-  * 
+  * contains only boug*.kmn
 
  -- Kim Blewett <kim_blewett@sil.org>  Sat, 01 Jul 2017 10:47:31 -0500
 

@@ -12,7 +12,7 @@
 # ==============================================================================
 
 [org.cinnamon]
-panel-bottom-height = 41
+#panels-height = ['1:32']
 
 favorite-apps = ['paratext.desktop', 'adaptit-frm.desktop', 'firefox.desktop', 'thunderbird.desktop', 'libreoffice-writer.desktop', 'nemo.desktop']
 
